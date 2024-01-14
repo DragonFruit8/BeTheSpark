@@ -1,0 +1,20 @@
+#CTA a{
+    display: flex;
+    min-height:300px;
+    min-width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+@media (min-width: 1080px) {
+    #CTA a{
+        display: inline-flex;
+        min-height:100px;
+        min-width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+}
